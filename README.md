@@ -1,10 +1,11 @@
-# Creator Craft
-A simple project creation and management system.
+# Template Engine
+A simple template engine that generates deployable web app skeletons.
 
 ## Usage
-1. Create a new project using the `create_project` method.
-2. Build the project using the `build_project` method.
-3. Launch the project using the `launch_project` method.
+1. Create a template engine instance: `engine = create_template_engine()`
+2. Select a template based on intent: `template = engine.select_template("blog")`
+3. Generate code for the selected template: `code = engine.generate_code(template)`
+4. Compile and deploy the code: `deployment_url = engine.deploy_code(code)`
 
 ## Testing
-Run the tests using `pytest` to ensure the system is working correctly.
+Run tests using `pytest`: `python -m pytest tests/test_template_engine.py`
