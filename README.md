@@ -1,11 +1,8 @@
-# Template Engine
-A simple template engine that generates deployable web app skeletons.
+# Analytics
+A simple analytics system for tracking user engagement and revenue metrics.
 
 ## Usage
-1. Create a template engine instance: `engine = create_template_engine()`
-2. Select a template based on intent: `template = engine.select_template("blog")`
-3. Generate code for the selected template: `code = engine.generate_code(template)`
-4. Compile and deploy the code: `deployment_url = engine.deploy_code(code)`
-
-## Testing
-Run tests using `pytest`: `python -m pytest tests/test_template_engine.py`
+1. Create an instance of the `Analytics` class with your desired settings.
+2. Update the metrics using the `update_metrics` method.
+3. Get the current metrics using the `get_metrics` method.
+4. Customize the settings using the `customize_settings` method.
